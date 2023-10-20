@@ -83154,7 +83154,7 @@ break
 case 5:s=7
 return A.r(p.lh(c,o),$async$nn)
 case 7:s=8
-return A.r(A.anY(A.VS("http","localhost:3003",p.gcA(p)+"/"+a,null),B.U.pc(b,null),o),$async$nn)
+return A.r(A.anY(A.VS("https","server.dogfoot.club","youtube-uploader-server/"+p.gcA(p)+"/"+a,null),B.U.pc(b,null),o),$async$nn)
 case 8:q=f
 s=1
 break
@@ -83267,7 +83267,7 @@ while(true)switch(s){case 0:o=p.b
 n=p.a
 s=3
 return A.r(o.lh(p.c,n.a),$async$$0)
-case 3:q=A.aMx(A.VS("http","localhost:3003",o.gcA(o)+"/"+p.d,p.e),n.a)
+case 3:q=A.aMx(A.VS("https","server.dogfoot.club","youtube-uploader-server/"+o.gcA(o)+"/"+p.d,p.e),n.a)
 s=1
 break
 case 1:return A.B(q,r)}})
@@ -83280,7 +83280,7 @@ while(true)switch(s){case 0:o=p.b
 n=p.a
 s=3
 return A.r(o.lh(p.c,n.a),$async$$0)
-case 3:o=A.VS("http","localhost:3003",o.gcA(o)+"/"+p.d,p.e)
+case 3:o=A.VS("https","server.dogfoot.club","youtube-uploader-server/"+o.gcA(o)+"/"+p.d,p.e)
 n=n.a
 s=4
 return A.r(A.anY(o,B.U.pc(p.f,null),n),$async$$0)
@@ -83297,7 +83297,7 @@ while(true)switch(s){case 0:o=p.b
 n=p.a
 s=3
 return A.r(o.lh(p.c,n.a),$async$$0)
-case 3:o=A.VS("http","localhost:3003",o.gcA(o)+"/"+p.d,p.e)
+case 3:o=A.VS("https","server.dogfoot.club","youtube-uploader-server/"+o.gcA(o)+"/"+p.d,p.e)
 n=n.a
 s=4
 return A.r(A.arf(o,B.U.pc(p.f,null),n),$async$$0)
@@ -83496,7 +83496,7 @@ ia(a,b,c){return this.WO(a,b,c)},
 WN(a,b){return this.ia(a,b,!0)},
 WO(a1,a2,a3){var s=0,r=A.D(t.H),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
 var $async$ia=A.y(function(a4,a5){if(a4===1){o=a5
-s=p}while(true)switch(s){case 0:f=A.aFv("POST",A.VS("http","localhost:3003",n.gcA(n)+"/upload_thumbnail",null))
+s=p}while(true)switch(s){case 0:f=A.aFv("POST",A.VS("https","server.dogfoot.club","youtube-uploader-server/"+n.gcA(n)+"/upload_thumbnail",null))
 e=f.x
 e.m(0,"videoId",a1)
 e.m(0,"oAuthToken",n.b)
